@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "569844740532",
+    "firebase_url": "https://u-fit-80559.firebaseio.com",
+    "project_id": "u-fit-80559",
+    "storage_bucket": "u-fit-80559.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569844740532:android:7f45e6e902bd6a57de82e1",
+        "android_client_info": {
+          "package_name": "shadefoundry.u_fit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569844740532-7cq935gc9husp5iiv1atrgl6b28tc4kv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shadefoundry.u_fit",
+            "certificate_hash": "6bb51c7828cca0ceb8398eecd9932a28fe5f3eab"
+          }
+        },
+        {
+          "client_id": "569844740532-1f1asbotkhi2mepao09udlpvav7ncfns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU-eOLQRAjOjv-IL7JjWnAMD60jc4OMm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569844740532-1f1asbotkhi2mepao09udlpvav7ncfns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

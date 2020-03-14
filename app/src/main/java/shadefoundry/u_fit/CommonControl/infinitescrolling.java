@@ -1,0 +1,24 @@
+package shadefoundry.u_fit.CommonControl;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+abstract  public class infinitescrolling extends RecyclerView.OnScrollListener {
+    public static String TAG = infinitescrolling .class.getSimpleName();
+
+    // use your LayoutManager instead
+    private LinearLayoutManager llm;
+
+
+
+    @Override
+    public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+        super.onScrolled(recyclerView, dx, dy);
+
+        if (!recyclerView.canScrollVertically(1)) {
+            onScrolledToEnd();
+        }
+    }
+
+    public abstract void onScrolledToEnd();
+}
